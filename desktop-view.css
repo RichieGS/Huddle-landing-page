@@ -1,0 +1,279 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.header {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.header img {
+  width: 200px;
+}
+
+.header .try-btn {
+  padding: 10px 30px;
+  background-color: white;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 30px;
+  color: hsl(321, 100%, 78%);
+  border: 2px solid hsl(321, 100%, 78%);
+  transition: color 0.5s, border 0.5s;
+}
+
+.header .try-btn:hover {
+  cursor: pointer;
+  color: hsl(322, 100%, 66%);
+  border: 2px solid hsl(322, 100%, 66%);
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headings .heading {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 45px;
+  color: hsl(192, 100%, 9%);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.headings .write-up {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 18px;
+  color: hsl(192, 100%, 9%);
+  text-align: center;
+  width: 550px;
+  margin-bottom: 40px
+}
+
+.headings .get-started-btn {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 95px;
+  border: none;
+  border-radius: 65px;
+  box-shadow: 0 5px 25px -15px hsl(192, 100%, 9%);
+  margin-bottom: 100px;
+  transition: background-color 0.5s;
+}
+
+.headings .get-started-btn:hover {
+  cursor: pointer;
+  background-color: hsl(321, 100%, 78%);
+}
+
+.headings img {
+  width: 70%;
+  margin-bottom: 100px;
+}
+
+.global {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
+.global img{
+  margin-left: 5px;
+}
+
+.global .counter {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 100px;
+  color: hsl(192, 100%, 9%);
+}
+
+.global .countee {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+  color: hsl(192, 100%, 9%);
+}
+
+.global .countee2 {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+  color: hsl(192, 100%, 9%);
+}
+
+.grow-together,
+.your-users {
+  background-color: hsl(207, 100%, 98%);
+  margin-top: -5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.flowing-conversation {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.grow-together img,
+.flowing-conversation img,
+.your-users img {
+  width: 400px;
+  margin-top: 50px;
+}
+
+.headings .heading2 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 45px;
+  color: hsl(192, 100%, 9%);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  color: hsl(192, 100%, 9%);
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+.write-up {
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 600;
+  color: hsl(192, 100%, 9%);
+  width: 440px;
+}
+
+.before-footer {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.footer {
+  margin-top: -7px;
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: hsl(192, 100%, 9%);
+}
+
+.left-container,
+.right-container {
+display: flex;
+flex-direction: column;
+margin-top: 50px;
+}
+
+.right-container .theme {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer-logo {
+  transform: scale(0.6);
+  margin-bottom: 10px;
+  margin-left: -50px;
+}
+
+
+.write-up2 {
+  font-family: Open Sans;
+  font-size: 12px;
+  color: white;
+  margin-bottom: 20px;
+  width: 280px;
+}
+
+.phone,
+.mail {
+  font-family: Open Sans;
+  font-size: 13px;
+  color: white;
+}
+
+.telecom {
+  width: 15px;
+  height: 15px;
+  margin-right: 15px;
+}
+
+.tele-container {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.inp-btn {
+  display: flex;
+  margin-top: 10px;
+}
+
+.input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+  width: 240px;
+}
+
+.subscribe-btn {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+}
+
+.subscribe-btn:hover {
+  cursor: pointer;
+  background-color: hsl(321, 100%, 78%);
+}
+
+.social-media {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.social-media svg {
+  fill: white;
+  margin-top: 15px;
+  transition: fill 0.3s;
+}
+
+.social-media svg:hover {
+  fill: hsl(199, 100%, 60%);
+  cursor: pointer;
+}

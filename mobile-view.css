@@ -1,0 +1,166 @@
+@media only screen and (max-width: 480px) {
+  .header {
+    padding: 20px;
+
+  }
+  .header img {
+    width: 120px;
+  }
+
+  .header .try-btn {
+    font-size: 13px;
+    padding: 5px 20px;
+  }
+
+  .headings .heading,
+  .headings .heading2 {
+    width: 90%;
+    font-size: 25px;
+  }
+
+  .headings .write-up {
+    width: 90%;
+    font-size: 15px;
+  }
+
+  .headings .get-started-btn {
+    font-size: 13px;
+    padding: 15px 40px;
+    margin-top: 20px;
+  }
+
+  .global {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .global img {
+    width: 40px;
+  }
+
+  .global .counter {
+    font-size: 60px;
+  }
+
+  .global .countee {
+    margin-bottom: 100px;
+    font-size: 15px;
+  }
+
+  .global .countee2 {
+    width: 100px;
+    font-size: 15px;
+    margin-left: 25%;
+  }
+
+  .grow-together,
+  .your-users,
+  .flowing-conversation {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .grow-together img,
+  .flowing-conversation img,
+  .your-users img {
+    margin: 0;
+    width: 65%;
+  }
+
+  .order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 2;
+  }
+
+  .order1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 25px;
+    text-align: center;
+    margin: 70px 0 20px 0;
+  }
+
+  .write-up {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+  }
+
+
+  .footer-content {
+    flex-direction: column;
+    padding: 25px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .left-container {
+    order: 2;
+  }
+
+  .right-container .theme {
+    font-size: 20px;
+  }
+
+  .write-up2 {
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .inp-btn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input {
+    font-family: Open Sans;
+    font-size: 15px;
+    width: 95%;
+    margin: 0 0 20px 0;
+  }
+
+  .subscribe-btn {
+    display: flex;
+    align-self: flex-end;
+    width: 50%;
+    padding: 10px 10px;
+    font-size: 18px;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .footer-logo {
+    transform: scale(0.6);
+    margin-left: -45px;
+  }
+
+  .telecom {
+    width: 20px;
+    height: 18px;
+  }
+
+  .tele-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+
+  .phone,
+  .mail {
+    font-size: 18px;
+  }
+
+  .social-media {
+    margin: 20px 0 50px 0;
+  }
+}
